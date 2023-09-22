@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 10rem;
+    height: 10rem;
+    border: solid 3px;
+    border-color : green;
+    border-top-width: 5px;
+    border-bottom: green dashed;
+    border-left-color: red;
+    border-radius: 0 0 50px 0 ;
+    box-shadow: blue 10px 10px 20px 0;
+
+}
+
+p {
+
+text-shadow:  0 -20px 0 blueviolet;
+}
